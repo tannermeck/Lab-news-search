@@ -16,7 +16,10 @@ class NewsSearch extends Component {
         const { articles } = this.state
         if (this.state.loading) return <h1>Loading...</h1>
         return (
-            <ArticleList articles={articles}/>
+            <>
+                <SearchArticles />
+                <ArticleList articles={articles}/>
+            </>
         )
     }
 }
