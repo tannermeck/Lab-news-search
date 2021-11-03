@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a list of articles it should render a list of authors, titles, and descriptions 1`] = `
+<DocumentFragment>
+  <p
+    aria-label="author-tag"
+  >
+    Author: Elon Musk
+  </p>
+  <p>
+    Title: bitcoin
+  </p>
+  <p>
+    Description: Bitcoin soars
+  </p>
+</DocumentFragment>
+`;
