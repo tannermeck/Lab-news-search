@@ -9,7 +9,6 @@ describe('shows a list of articles', () => {
         screen.getByText('Loading...');
         const ul = await screen.findByRole('list', { name: 'articles' });
         expect(ul).toMatchSnapshot();
-
         const input = await screen.findByLabelText('Find Articles')
         userEvent.type(input, 'health');
         const submit = await screen.findByRole('button', { name: 'button' })
