@@ -6,6 +6,7 @@ import NewsSearch from './NewsSearch';
 describe('shows a list of articles', () => {
     it('should display a list of authors, titles, and description', async () => {
         render(<NewsSearch />)
+        console.log('API_KEY', process.env.REACT_APP_API_KEY)
         screen.getByText('Loading...');
         const ul = await screen.findByRole('list', { name: 'articles' });
         expect(ul).toMatchSnapshot();
