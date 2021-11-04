@@ -12,7 +12,7 @@ export const Article = ({author, title, description}) => {
 }
 
 Article.propTypes = {
-    author: PropTypes.string.isRequired,
+    author: PropTypes.string,
     title: PropTypes.string.isRequired,
     description: PropTypes.string.isRequired
 }

@@ -3,8 +3,8 @@ import React from 'react';
 import { Article } from './Article';
 
 export const ArticleList = ({ articles }) => {
-    const articleList = articles.map(({ author, title, description }) => (
-        <li key={`${author}-${title}`}>
+    const articleList = articles.map(({ author, title, description, publishedAt }) => (
+        <li key={`${author}-${title}-${publishedAt}`}>
             <Article author={author}
             title={title}
             description={description}
@@ -16,7 +16,7 @@ export const ArticleList = ({ articles }) => {
 ArticleList.proptypes = {
     articles: PropTypes.arrayOf(
         PropTypes.shape({
-            author: PropTypes.string.isRequired,
+            author: PropTypes.string,
             title: PropTypes.string.isRequired,
             description: PropTypes.string.isRequired
         })
