@@ -11,9 +11,7 @@ export const ArticleList = ({ articles }) => {
             />
         </li>
     ))
-    return <ul>
-        {articleList}
-        </ul>
+    return <ul aria-label="articles">{articleList}</ul>
 }
 ArticleList.proptypes = {
     articles: PropTypes.arrayOf(

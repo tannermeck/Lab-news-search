@@ -2,7 +2,9 @@
 
 exports[`should render an article list it should render an array of authors, titles, and descriptions 1`] = `
 <DocumentFragment>
-  <ul>
+  <ul
+    aria-label="articles"
+  >
     <li>
       <p
         aria-label="author-tag"

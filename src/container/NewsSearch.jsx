@@ -27,7 +27,6 @@ class NewsSearch extends Component {
     }
 
     render(){
-        console.log('articles', this.state.articles)
         const { articles, search, loading } = this.state
         if (loading) return <h1>Loading...</h1>
         return (

@@ -6,14 +6,16 @@ exports[`should imitate a search query should return a list of articles related 
     <label
       for="search"
     >
-      Find Articles: 
+      Find Articles
     </label>
     <input
       id="search"
       name="search"
       value="health"
     />
-    <button>
+    <button
+      aria-label="button"
+    >
       Search Articles!
     </button>
   </form>
