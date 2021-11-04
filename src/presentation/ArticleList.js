@@ -11,7 +11,9 @@ export const ArticleList = ({ articles }) => {
             />
         </li>
     ))
-    return <ul>{articleList}</ul>
+    return <ul>
+        {articleList}
+        </ul>
 }
 ArticleList.proptypes = {
     articles: PropTypes.arrayOf(
