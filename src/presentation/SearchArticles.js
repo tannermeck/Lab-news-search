@@ -4,9 +4,9 @@ export const SearchArticles = ({onSubmit, query, handleChange}) => {
     return (
         <>
             <form onSubmit={onSubmit}>
-                <label htmlFor="search">Find Articles: </label>
+                <label htmlFor="search">Find Articles</label>
                 <input id="search" name="search" value={query} onChange={handleChange}/>
-                <button>Search Articles!</button>
+                <button aria-label="button">Search Articles!</button>
             </form>
         </>
     )
