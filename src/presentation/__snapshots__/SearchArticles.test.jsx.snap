@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should imitate a search query should return a list of articles related to the search 1`] = `
+<DocumentFragment>
+  <form>
+    <label
+      for="search"
+    >
+      Find Articles: 
+    </label>
+    <input
+      id="search"
+      name="search"
+      value="health"
+    />
+    <button>
+      Search Articles!
+    </button>
+  </form>
+</DocumentFragment>
+`;

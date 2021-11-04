@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render an article list it should render an array of authors, titles, and descriptions 1`] = `
+<DocumentFragment>
+  <ul>
+    <li>
+      <p
+        aria-label="author-tag"
+      >
+        Author: Elon Musk
+      </p>
+      <p>
+        Title: bitcoin
+      </p>
+      <p>
+        Description: Bitcoin soars
+      </p>
+    </li>
+    <li>
+      <p
+        aria-label="author-tag"
+      >
+        Author: Dr. Phil
+      </p>
+      <p>
+        Title: health
+      </p>
+      <p>
+        Description: stop eating red meats
+      </p>
+    </li>
+  </ul>
+</DocumentFragment>
+`;
